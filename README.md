@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+🔭 I’m currently working on
+
+- State-of-art analysis of Single-cell multi-omics data and next-generation sequencing data.
+- Full-stack web development in Single-cell data analysis portal, Alzhimer's disease database.
+- Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
+- Deep learning framework in studying transcriptional regulation using Single-cell ATAC-seq data.
+
 <!--
 **Wang-Cankun/Wang-Cankun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
