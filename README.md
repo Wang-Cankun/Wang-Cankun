@@ -7,6 +7,7 @@
 - Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
 - Deep learning framework in studying transcriptional regulation using Single-cell ATAC-seq data.
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **Wang-Cankun/Wang-Cankun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
