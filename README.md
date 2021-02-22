@@ -5,7 +5,7 @@
 - State-of-art analysis of Single-cell multi-omics data and next-generation sequencing data.
 - Full-stack web application projects like Single-cell data analysis portal, Alzheimer's disease database.
 - Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
-- Deep learning framework in studying transcriptional regulation using Single-cell ATAC-seq data.
+- Deep learning framework in single-cell multiomics to study transcriptional regulation.
 
 [![Cankun's github stats](https://github-readme-stats.vercel.app/api?username=Wang-Cankun)](https://github.com/anuraghazra/github-readme-stats)
 <!--
