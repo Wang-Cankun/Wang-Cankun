@@ -1,7 +1,7 @@
 
-### Hi there 👋
+### Hi there, I'm Cankun Wang 👋
 
-🔭 I’m currently working on
+🔭 I'm a Bioinforamtics & Biomedical researcher at The Ohio State University Wexner Medical Center. I’m currently working on:
 
 - State-of-art analysis of Single-cell multi-omics data and next-generation sequencing data.
 - Full-stack web application projects like Single-cell data analysis portal, Alzheimer's disease database.
