@@ -8,7 +8,8 @@
 - Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
 - Deep learning framework in single-cell multiomics to study transcriptional regulation.
 
-<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&"/></a> <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"><img style="height:100px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wang-Cankun"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&"/></a> <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=material-palenight" />
+</a>
 
 <!--
 **Wang-Cankun/Wang-Cankun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
