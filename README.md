@@ -8,7 +8,7 @@
 - Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
 - Deep learning framework in single-cell multiomics to study transcriptional regulation.
 
-<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&"/></a> <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"><img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=material-palenight" />
+<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"><img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=vue" />
 </a>
 
 <!--
@@ -24,4 +24,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
 -->
