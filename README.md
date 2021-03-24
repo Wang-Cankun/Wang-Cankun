@@ -3,7 +3,7 @@
 
 🔭 I'm a Bioinforamtics & Biomedical researcher at The Ohio State University Wexner Medical Center. 
 
-Some of my on-going projects:
+Some of my ongoing projects:
 - State-of-art analysis of Single-cell multi-omics data and next-generation sequencing data.
 - Full-stack web applications (Vue, NestJs, Docker) like Single-cell data analysis portal, Alzheimer's disease database.
 - Longitudinal electronic medical/health records to study activities from intensive care patients with critical illness.
