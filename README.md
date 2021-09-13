@@ -8,7 +8,7 @@
 - State-of-art analysis of Single-cell multi-omics data and next-generation sequencing data.
 - Full-stack web applications like Single-cell data analysis portal, [Alzheimer's disease database](https://bmbls.bmi.osumc.edu/scread/).
 - Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
-- Deep learning framework in single-cell multiomics to study transcriptional regulation.
+- Modeling single-cell multiome data using Transformer.
 
 ##### Languages and tools
 
