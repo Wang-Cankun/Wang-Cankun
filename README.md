@@ -29,9 +29,12 @@
 <img src="https://camo.githubusercontent.com/c895dcc921b7591d8133f091d69bce4de301c6834af8a201d6a25237c80524cf/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7079746f7263682f7079746f7263682d69636f6e2e737667" alt="pytorch" width="24" height="24"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="24" height="24"/>
 </p>
-<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> <a href="https://github.com/anuraghazra/github-readme-stats"_target="blank"><img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Wang-Cankun&layout=compact&theme=vue" />
-</a>
 
+<a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> 
+
+<!--<a href="https://github.com/anuraghazra/github-readme-stats"_target="blank"><img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Wang-Cankun&layout=compact&theme=vue" />
+</a>
+-->
 <!--
 **Wang-Cankun/Wang-Cankun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
