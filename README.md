@@ -12,7 +12,7 @@
 - Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
 - Modeling single-cell open chromatin and gene expression multiome data using long range Transformer.
 
-##### BIO
+##### Bio
 
 - <a href="https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf" target="_blank">My CV</a>
 - `TypeScript`, `React`, `PyTorch`, `NestJS`, `R`, `Snakemake`
