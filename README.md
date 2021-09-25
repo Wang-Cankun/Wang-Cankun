@@ -1,5 +1,5 @@
 
-<h2 align="center">👋 Hello! I'm Cankun Wang</h2>
+## 👋 Hello! I'm Cankun Wang
 
 #### I'm a Bioinformatics & Biomedical researcher at The Ohio State University Wexner Medical Center.
 
