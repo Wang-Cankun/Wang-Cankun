@@ -1,7 +1,7 @@
 
 ### Hi there, I'm Cankun Wang 👋
 
-#### I'm a Bioinforamtics & Biomedical researcher at The Ohio State University Wexner Medical Center
+#### I'm a Bioinformatics & Biomedical researcher at The Ohio State University Wexner Medical Center
 
 ##### Some of my ongoing projects
 
