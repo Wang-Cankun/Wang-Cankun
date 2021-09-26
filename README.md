@@ -1,9 +1,7 @@
 
 ## 👋 Hello! I'm Cankun Wang
 
-#### I'm a Bioinformatics & Biomedical researcher at The Ohio State University Wexner Medical Center.
-
-#### I build full-stack web applications and deep learning workflows to study transcriptional regulation.
+#### I build full-stack web applications and deep learning workflows to advance biomedical & bioinformatics research.
 
 ##### Working on
 
