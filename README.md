@@ -3,7 +3,7 @@
 
 #### I'm a Bioinformatics & Biomedical researcher at The Ohio State University Wexner Medical Center.
 
-#### I build full-stack applications and deep learning models to study transcriptional regulation.
+#### I build full-stack web applications and deep learning workflows to study transcriptional regulation.
 
 ##### Working on
 
