@@ -5,7 +5,7 @@
 
 ##### Working on
 
-- State-of-art [analysis & visualization](https://github.com/Wang-Cankun/NOTCH1-scRNAseq) of single-cell multi-omics data and next-generation sequencing data.
+- State-of-art analysis & visualization of single-cell multi-omics data and next-generation sequencing data.
 - Full-stack web applications like [single-cell regulon analysis portal](https://bmbl.bmi.osumc.edu/iris3/), [Alzheimer's disease database](https://bmbls.bmi.osumc.edu/scread/).
 - Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
 - Modeling single-cell open chromatin and gene expression multiome data using long range Transformer.
