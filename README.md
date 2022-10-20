@@ -1,7 +1,7 @@
 
 ## 👋 Hello! I'm Cankun Wang
 
-#### I build full-stack web applications and deep learning workflows to advance biomedical & bioinformatics research.
+#### I build full-stack applications and deep learning workflows over cloud to advance biomedical & bioinformatics research.
 
 ##### Working on
 
