@@ -14,7 +14,7 @@
 ##### Bio
 
 - <a href="https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf" target="_blank">My CV</a>
-- `TypeScript`, `React`, `Vue`, `NestJS`, `PyTorch`, `R`, `Snakemake`
+- `TypeScript`, `Vue`, `Node.js`, `PyTorch`, `R`, `Azure`
 
 <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> 
 
