@@ -6,9 +6,9 @@
 ##### Working on
 
 - [Analysis & visualization](https://github.com/Wang-Cankun/NOTCH1-scRNAseq) of single-cell multi-omics data and next-generation sequencing data.
-- Cloud-native single cell analysis workflow & platform at Google Cloud Platform.
+- Cloud-native single cell analysis workflow & platform on Azure.
 - Full-stack web applications like [single-cell regulon analysis portal](https://bmbl.bmi.osumc.edu/iris3/), [Alzheimer's disease database](https://bmbls.bmi.osumc.edu/scread/).
-- Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
+
 - Modeling single-cell open chromatin and gene expression multiome data using long range Transformer.
 
 ##### Bio
@@ -21,6 +21,7 @@
 ![](https://komarev.com/ghpvc/?username=Wang-Cankun)
 
 <!--
+- Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
 <a href="https://github.com/anuraghazra/github-readme-stats"_target="blank"><img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Wang-Cankun&layout=compact&theme=vue" />
 </a>
 -->
