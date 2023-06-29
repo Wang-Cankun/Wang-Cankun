@@ -15,7 +15,7 @@
 
 - <a href="https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf" target="_blank">My CV</a>
 - `TypeScript`, `Vue`, `Node.js`, `PyTorch`, `R`, `Azure`
-
+<!--
 <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> 
 
 ![](https://komarev.com/ghpvc/?username=Wang-Cankun)
@@ -24,9 +24,9 @@
 - Longitudinal electronic medical/health records to study [activities from intensive care patients with critical illness](https://reporter.nih.gov/search/1vFutA6RBkqivB34YtjobA/project-details/10130657).
 <a href="https://github.com/anuraghazra/github-readme-stats"_target="blank"><img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Wang-Cankun&layout=compact&theme=vue" />
 </a>
--->
 
-<!--
+
+
 <p align="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="docker" width="24" height="24"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="24" height="24"/>
