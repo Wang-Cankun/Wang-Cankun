@@ -5,9 +5,9 @@
 
 ##### Working on
 
-- Analysis & visualization of single-cell multi-omics data and next-generation sequencing data.
-- Full-stack web applications like single-cell regulon analysis portal, Alzheimer's disease database, and biomedical application from large language model
-- Cloud-native single-cell analysis workflow & platform on Azure and AWS.
+- Analysis & visualization of single-cell and spatial multi-omics data for Human cardiac diseases, Cancer immunotherapy.
+- Full-stack websites like single-cell regulon analysis portal, Alzheimer's disease database, and biomedical applications from large language models.
+- Managing cloud-native machining learning workflow & platform on AWS and Azure.
 - Modeling single-cell open chromatin and gene expression multiome data using long range Transformer.
 
 ##### Bio
