@@ -5,7 +5,7 @@
 
 ##### Currently working on
 
-- Analyzing and visualizing single-cell and spatial multi-omics data, focusing on human cardiac diseases and cancer immunotherapy.
+- Analyzing and visualizing single-cell and spatial multi-omics data, focusing on human cardiac diseases, cellular senescence (Lung and Heart), and cancer immunotherapy.
 - Developing full-stack websites, including the Single-Cell Regulon Analysis Portal, Alzheimer's Disease Database, and applications leveraging large language models for biomedical insights.
 - Managing cloud-native machine learning workflows and platforms across AWS and Azure.
 - Modeling single-cell open chromatin and gene expression using the advanced Long Range Transformer approach.
