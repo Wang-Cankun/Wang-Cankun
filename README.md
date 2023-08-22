@@ -1,14 +1,13 @@
 
 ## 👋 Hello! I'm Cankun Wang
 
-#### I build full-stack applications and deep learning workflows over cloud to advance biomedical & bioinformatics research.
+#### I build full-stack applications and data analysis workflows to advance biomedical & computational biology research.
 
 ##### Working on
 
-- [Analysis & visualization](https://github.com/Wang-Cankun/NOTCH1-scRNAseq) of single-cell multi-omics data and next-generation sequencing data.
-- Cloud-native single cell analysis workflow & platform on Azure.
-- Full-stack web applications like [single-cell regulon analysis portal](https://bmbl.bmi.osumc.edu/iris3/), [Alzheimer's disease database](https://bmbls.bmi.osumc.edu/scread/).
-
+- Analysis & visualization of single-cell multi-omics data and next-generation sequencing data.
+- Full-stack web applications like single-cell regulon analysis portal, Alzheimer's disease database, and biomedical application from large language model
+- Cloud-native single-cell analysis workflow & platform on Azure and AWS.
 - Modeling single-cell open chromatin and gene expression multiome data using long range Transformer.
 
 ##### Bio
