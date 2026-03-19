@@ -1,7 +1,7 @@
 
 ## 👋 Hello! I'm Cankun Wang
 
-I build full-stack applications and data analysis workflows to advance biomedical & computational biology research.
+I build AI agents for data analysis workflows to advance biomedical & computational biology research.
 
 ##### Currently working on
 
