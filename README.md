@@ -11,25 +11,26 @@
 
 ## Selected Publications
 
-<table>
-<tr><td colspan="3"><b>LLM & AI Systems</b></td></tr>
-<tr><td>A platform for the biomedical application of large language models</td><td><i>Nature Biotechnology</i> (2025)</td><td><a href="https://doi.org/10.1038/s41587-024-02534-3">doi</a></td></tr>
+**LLM & AI Systems**
 
-<tr><td colspan="3"><b>Disease-driven Computational Analysis</b></td></tr>
-<tr><td>Common and divergent cellular aetiologies underlying hypoplastic left heart syndrome and hypoplastic right heart syndrome</td><td><i>European Heart Journal</i> (2025)</td><td><a href="https://doi.org/10.1093/eurheartj/ehaf121">doi</a></td></tr>
-<tr><td>Cell-free RNA signatures in maternal blood with fetal congenital heart disease</td><td><i>Circulation Research</i> (2024)</td><td><a href="https://doi.org/10.1161/CIRCRESAHA.124.325024">doi</a></td></tr>
-<tr><td>A bioinformatics tool for identifying intratumoral microbes from the ORIEN dataset ★</td><td><i>Cancer Research Communications</i> (2024)</td><td><a href="https://doi.org/10.1158/2767-9764.CRC-23-0268">doi</a></td></tr>
-<tr><td>Abnormal progenitor cell differentiation and cardiomyocyte proliferation in hypoplastic right heart syndrome</td><td><i>Circulation</i> (2024)</td><td><a href="https://doi.org/10.1161/CIRCULATIONAHA.123.067366">doi</a></td></tr>
-<tr><td>Impaired human cardiac cell development due to NOTCH1 deficiency ★</td><td><i>Circulation Research</i> (2023)</td><td><a href="https://doi.org/10.1161/CIRCRESAHA.122.321398">doi</a></td></tr>
-<tr><td>Microglia coordinate cellular interactions during spinal cord repair in mice</td><td><i>Nature Communications</i> (2022)</td><td><a href="https://doi.org/10.1038/s41467-022-31797-0">doi</a></td></tr>
-<tr><td>NIH SenNet Consortium to map senescent cells throughout the human lifespan to understand physiological health</td><td><i>Nature Aging</i> (2022)</td><td><a href="https://doi.org/10.1038/s43587-022-00326-5">doi</a></td></tr>
+A platform for the biomedical application of large language models. *Nature Biotechnology* (2025) [doi](https://doi.org/10.1038/s41587-024-02534-3)
 
-<tr><td colspan="3"><b>Research Software & Databases</b></td></tr>
-<tr><td>A single-cell and spatial RNA-seq database for Alzheimer's disease (ssREAD) ★</td><td><i>Nature Communications</i> (2024)</td><td><a href="https://doi.org/10.1038/s41467-024-49808-z">doi</a></td></tr>
-<tr><td>scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses</td><td><i>Nature Communications</i> (2021)</td><td><a href="https://doi.org/10.1038/s41467-021-22197-x">doi</a></td></tr>
-<tr><td>IRIS3: Integrated cell-type-specific regulon inference server from single-cell RNA-Seq ★</td><td><i>Nucleic Acids Research</i> (2020)</td><td><a href="https://doi.org/10.1093/nar/gkaa394">doi</a></td></tr>
-<tr><td>scREAD: A single-cell RNA-Seq database for Alzheimer's disease ★</td><td><i>iScience</i> (2020)</td><td><a href="https://doi.org/10.1016/j.isci.2020.101769">doi</a></td></tr>
-</table>
+**Disease-driven Computational Analysis**
+
+Common and divergent cellular aetiologies underlying hypoplastic left heart syndrome and hypoplastic right heart syndrome. *European Heart Journal* (2025) [doi](https://doi.org/10.1093/eurheartj/ehaf121)<br>
+Cell-free RNA signatures in maternal blood with fetal congenital heart disease. *Circulation Research* (2024) [doi](https://doi.org/10.1161/CIRCRESAHA.124.325024)<br>
+A bioinformatics tool for identifying intratumoral microbes from the ORIEN dataset. *Cancer Research Communications* (2024) [doi](https://doi.org/10.1158/2767-9764.CRC-23-0268) ★<br>
+Abnormal progenitor cell differentiation and cardiomyocyte proliferation in hypoplastic right heart syndrome. *Circulation* (2024) [doi](https://doi.org/10.1161/CIRCULATIONAHA.123.067366)<br>
+Impaired human cardiac cell development due to NOTCH1 deficiency. *Circulation Research* (2023) [doi](https://doi.org/10.1161/CIRCRESAHA.122.321398) ★<br>
+Microglia coordinate cellular interactions during spinal cord repair in mice. *Nature Communications* (2022) [doi](https://doi.org/10.1038/s41467-022-31797-0)<br>
+NIH SenNet Consortium to map senescent cells throughout the human lifespan to understand physiological health. *Nature Aging* (2022) [doi](https://doi.org/10.1038/s43587-022-00326-5)
+
+**Research Software & Databases**
+
+A single-cell and spatial RNA-seq database for Alzheimer's disease (ssREAD). *Nature Communications* (2024) [doi](https://doi.org/10.1038/s41467-024-49808-z) ★<br>
+scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses. *Nature Communications* (2021) [doi](https://doi.org/10.1038/s41467-021-22197-x)<br>
+IRIS3: Integrated cell-type-specific regulon inference server from single-cell RNA-Seq. *Nucleic Acids Research* (2020) [doi](https://doi.org/10.1093/nar/gkaa394) ★<br>
+scREAD: A single-cell RNA-Seq database for Alzheimer's disease. *iScience* (2020) [doi](https://doi.org/10.1016/j.isci.2020.101769) ★
 
 <sub>★ first or co-first author</sub>
 
