@@ -4,7 +4,10 @@
 
 > Building AI agent infrastructure for biomedical research — bridging LLMs, cloud computing, and multi-omics data at Ohio State's Comprehensive Cancer Center.
 
-📄 [CV](https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf) | 📎 [Google Scholar](https://scholar.google.com/citations?user=MCccvxgAAAAJ) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cankun-wang/) | [![X](https://img.shields.io/badge/-@WangCankun-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/WangCankun)
+[![CV](https://img.shields.io/badge/-CV-EC1C24?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf)
+[![Google Scholar](https://img.shields.io/badge/-Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=MCccvxgAAAAJ)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cankun-wang/)
+[![X](https://img.shields.io/badge/-@WangCankun-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/WangCankun)
 
 ## Selected Publications
 
