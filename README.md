@@ -15,7 +15,7 @@ I build AI agents for data analysis workflows to advance biomedical & computatio
 
 - <a href="https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf" target="_blank">Curriculum Vitae</a>
 - <a href="https://scholar.google.com/citations?user=MCccvxgAAAAJ&hl=en" target="_blank">Google Scholar</a>
-- `TypeScript`, `Vue.js`, `Node.js`, `Python`, `R`, `Azure`, `AWS`
+- `Claude Code`,`TypeScript`, `Vue.js`, `Node.js`, `Python`, `R`, `Azure`, `AWS`
 <!--
 <a href="https://github.com/anuraghazra/github-readme-stats" _target="blank"> <img src="https://github-readme-stats.vercel.app/api?username=Wang-Cankun&count_private=true&show_icons=true&theme=vue"/></a> 
 
