@@ -17,19 +17,19 @@
 **Disease-driven Computational Analysis**
 - Common and divergent cellular aetiologies underlying hypoplastic left heart syndrome and hypoplastic right heart syndrome. *European Heart Journal* (2025) [doi](https://doi.org/10.1093/eurheartj/ehaf121)
 - Cell-free RNA signatures in maternal blood with fetal congenital heart disease. *Circulation Research* (2024) [doi](https://doi.org/10.1161/CIRCRESAHA.124.325024)
-- `*` A bioinformatics tool for identifying intratumoral microbes from the ORIEN dataset. *Cancer Research Communications* (2024) [doi](https://doi.org/10.1158/2767-9764.CRC-23-0268)
+- <sup>★</sup>A bioinformatics tool for identifying intratumoral microbes from the ORIEN dataset. *Cancer Research Communications* (2024) [doi](https://doi.org/10.1158/2767-9764.CRC-23-0268)
 - Abnormal progenitor cell differentiation and cardiomyocyte proliferation in hypoplastic right heart syndrome. *Circulation* (2024) [doi](https://doi.org/10.1161/CIRCULATIONAHA.123.067366)
-- `*` Impaired human cardiac cell development due to NOTCH1 deficiency. *Circulation Research* (2023) [doi](https://doi.org/10.1161/CIRCRESAHA.122.321398)
+- <sup>★</sup>Impaired human cardiac cell development due to NOTCH1 deficiency. *Circulation Research* (2023) [doi](https://doi.org/10.1161/CIRCRESAHA.122.321398)
 - Microglia coordinate cellular interactions during spinal cord repair in mice. *Nature Communications* (2022) [doi](https://doi.org/10.1038/s41467-022-31797-0)
 - NIH SenNet Consortium to map senescent cells throughout the human lifespan to understand physiological health. *Nature Aging* (2022) [doi](https://doi.org/10.1038/s43587-022-00326-5)
 
 **Research Software & Databases**
-- `*` A single-cell and spatial RNA-seq database for Alzheimer's disease (ssREAD). *Nature Communications* (2024) [doi](https://doi.org/10.1038/s41467-024-49808-z)
+- <sup>★</sup>A single-cell and spatial RNA-seq database for Alzheimer's disease (ssREAD). *Nature Communications* (2024) [doi](https://doi.org/10.1038/s41467-024-49808-z)
 - scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses. *Nature Communications* (2021) [doi](https://doi.org/10.1038/s41467-021-22197-x)
-- `*` IRIS3: Integrated cell-type-specific regulon inference server from single-cell RNA-Seq. *Nucleic Acids Research* (2020) [doi](https://doi.org/10.1093/nar/gkaa394)
-- `*` scREAD: A single-cell RNA-Seq database for Alzheimer's disease. *iScience* (2020) [doi](https://doi.org/10.1016/j.isci.2020.101769)
+- <sup>★</sup>IRIS3: Integrated cell-type-specific regulon inference server from single-cell RNA-Seq. *Nucleic Acids Research* (2020) [doi](https://doi.org/10.1093/nar/gkaa394)
+- <sup>★</sup>scREAD: A single-cell RNA-Seq database for Alzheimer's disease. *iScience* (2020) [doi](https://doi.org/10.1016/j.isci.2020.101769)
 
-<sub>`*` first or co-first author</sub>
+<sub><sup>★</sup>first or co-first author</sub>
 
 ## What I Do
 
