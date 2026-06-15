@@ -1,4 +1,6 @@
-# Hi, I'm Cankun 👋 https://cankun.me/ 
+# Hi, I'm Cankun 👋 
+
+https://cankun.me/ 
 
 📍 **Columbus, OH** | 🧬 **Biomedical AI Infrastructure**
 
