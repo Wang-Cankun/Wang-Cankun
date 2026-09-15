@@ -2,9 +2,9 @@
 
 https://cankun.me/ 
 
-📍 **Columbus, OH** | 🧬 **Biomedical AI Infrastructure**
+📍 **Dallas, TX** | 🧬 **Biomedical AI Infrastructure**
 
-> Building AI agent infrastructure for biomedical research — bridging LLMs, cloud computing, and multi-omics data at Ohio State's Comprehensive Cancer Center.
+> Data Scientist II at UT Southwestern Medical Center (BDSC, School of Public Health). My work spans biomedical research software, AI infrastructure, cloud computing, and multi-omics analysis.
 
 [![CV](https://img.shields.io/badge/-CV-EC1C24?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://github.com/Wang-Cankun/Wang-Cankun/blob/main/Cankun_Wang_CV.pdf)
 [![Google Scholar](https://img.shields.io/badge/-Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=MCccvxgAAAAJ)
@@ -50,8 +50,8 @@ https://cankun.me/
 
 - MS Plant Science, South Dakota State University
 - BS Software Engineering, Beijing Jiaotong University
-- 7+ years building bioinformatics tools and cloud infrastructure at OSU
-- Pelotonia Institute for Immuno-Oncology, Ohio State Comprehensive Cancer Center
+- Data Scientist II, UT Southwestern Medical Center, since September 2026
+- Previously built bioinformatics tools and cloud infrastructure at Ohio State (2019-2026), including the Pelotonia Institute for Immuno-Oncology
 
 </details>
 

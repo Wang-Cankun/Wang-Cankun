@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cankun Wang · CV</title>
+<style>
+  @font-face { font-family: "Newsreader"; src: url("fonts/Newsreader.ttf") format("truetype"); font-weight: 200 800; font-style: normal; }
+  @font-face { font-family: "Inter"; src: url("fonts/Inter.ttf") format("truetype"); font-weight: 100 900; font-style: normal; }
+
+  @page {
+    size: A4;
+    margin: 11mm 13mm 11mm 13mm;
+    background: #ffffff;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --parchment: #ffffff;
+    --ivory:     #ffffff;
+    --border:    #d9d7cf;
+    --border-soft: #e4e2d9;
+    --near-black: #141413;
+    --dark-warm: #3d3d3a;
+    --olive:     #5e5d59;
+    --stone:     #87867f;
+    --brand:     #1B365D;
+    --brand-tint: #EEF2F7;
+
+    --serif: "Newsreader", "Source Serif 4", "Charter", Georgia, "Times New Roman", serif;
+    --sans:  "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    --mono:  "JetBrains Mono", "SF Mono", Consolas, Monaco, monospace;
+  }
+
+  html, body { background: var(--parchment); }
+
+  body {
+    color: var(--near-black);
+    font-family: var(--serif);
+    font-size: 9.4pt;
+    line-height: 1.42;
+    letter-spacing: 0;
+  }
+
+  .serif { font-family: var(--serif); }
+  .mono  { font-family: var(--mono); }
+
+  a { color: var(--brand); text-decoration: none; }
+
+  /* HEADER — single-column identity block */
+  .header {
+    padding-bottom: 2.4mm;
+    margin-bottom: 3mm;
+    border-bottom: 0.5pt solid var(--brand);
+  }
+  .name {
+    font-family: var(--serif);
+    font-size: 24pt;
+    font-weight: 500;
+    letter-spacing: -0.2pt;
+    color: var(--near-black);
+    line-height: 1;
+    margin-bottom: 1.3mm;
+  }
+  .headline {
+    font-size: 10.5pt; font-weight: 500;
+    color: var(--brand); line-height: 1.3;
+    margin-bottom: 2.4mm;
+  }
+  .id-affil { font-size: 9.5pt; color: var(--olive); line-height: 1.4; }
+  .id-contact {
+    font-size: 8.8pt; color: var(--stone);
+    line-height: 1.5; margin-top: 0.3mm;
+  }
+  .id-contact a { color: var(--dark-warm); }
+  .id-contact .mono { color: var(--dark-warm); font-size: 7.9pt; letter-spacing: -0.1pt; }
+  .id-contact .sep { color: var(--border); margin: 0 0.6mm; }
+
+  /* SUMMARY (header lede) */
+  .summary-block { margin: 0 0 1mm 0; }
+  .summary-block p {
+    font-size: 9.1pt; line-height: 1.5;
+    color: var(--near-black); margin-bottom: 1.8mm;
+    text-align: left;
+  }
+  .summary-block p:last-child { margin-bottom: 0; }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-family: var(--serif);
+    font-size: 11.5pt; font-weight: 500;
+    color: var(--near-black);
+    border-bottom: 0.8pt solid var(--brand);
+    padding: 0 0 0.6mm 0;
+    margin: 3.2mm 0 1.4mm 0;
+    display: flex; align-items: baseline; gap: 2.5mm;
+  }
+  section:first-of-type .section-title { margin-top: 0; }
+
+  /* EXPERIENCE */
+  .exp-item {
+    padding: 1mm 0 1.2mm 0;
+    border-bottom: 0.3pt dotted var(--border);
+    break-inside: avoid;
+  }
+  .exp-item:last-of-type { border-bottom: none; }
+  .exp-head {
+    display: flex; justify-content: space-between;
+    align-items: baseline; gap: 4mm; margin-bottom: 0.4mm;
+  }
+  .exp-inst {
+    font-family: var(--serif); font-size: 11pt; font-weight: 500;
+    color: var(--near-black); line-height: 1.3;
+  }
+  .exp-date {
+    font-size: 9pt; color: var(--stone);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap; flex-shrink: 0;
+  }
+  .exp-role {
+    font-size: 8.4pt; color: var(--brand); font-weight: 600;
+    letter-spacing: 0.3pt; text-transform: uppercase;
+    margin-bottom: 1mm;
+  }
+  .exp-role .dept {
+    color: var(--olive); font-weight: 500;
+    letter-spacing: 0; text-transform: none;
+    font-size: 9pt; margin-left: 1.5mm;
+  }
+  .exp-bullets { list-style: none; padding-left: 0; }
+  .exp-bullets li {
+    font-size: 9pt; line-height: 1.45;
+    color: var(--near-black);
+    padding-left: 3mm; position: relative;
+    margin-bottom: 0.4mm;
+  }
+  .exp-bullets li::before {
+    content: "·"; color: var(--brand); font-weight: 700;
+    position: absolute; left: 0.6mm; top: -0.4mm;
+    font-size: 12pt; line-height: 1;
+  }
+  .exp-bullets li .hl { color: var(--brand); font-weight: 500; }
+
+  /* PUBLICATIONS */
+  .pub-item {
+    padding: 0.9mm 0;
+    border-bottom: 0.3pt dotted var(--border);
+    break-inside: avoid;
+  }
+  .pub-item:last-of-type { border-bottom: none; }
+  .pub-head {
+    display: flex; align-items: baseline;
+    justify-content: space-between; gap: 3mm; margin-bottom: 0.4mm;
+  }
+  .pub-title {
+    font-size: 9.4pt; font-weight: 500;
+    color: var(--near-black); line-height: 1.4; flex: 1;
+  }
+  .pub-role {
+    font-size: 7.8pt; color: var(--brand); font-weight: 600;
+    background: var(--brand-tint);
+    padding: 0.4mm 1.6mm; border-radius: 2pt; letter-spacing: 0.3pt;
+    text-transform: uppercase; white-space: nowrap; flex-shrink: 0;
+  }
+  .pub-meta {
+    font-size: 8.6pt; color: var(--olive); line-height: 1.4;
+    font-style: italic;
+  }
+  .pub-meta .year {
+    color: var(--brand); font-style: normal; font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+  .pub-authors {
+    font-style: normal; font-size: 8.4pt;
+    color: var(--stone); line-height: 1.4; margin-top: 0.1mm;
+  }
+  .pub-authors .self { color: var(--near-black); font-weight: 500; }
+
+  /* EDUCATION */
+  .edu-row {
+    display: flex; justify-content: space-between;
+    align-items: baseline; padding: 1mm 0;
+    border-bottom: 0.3pt dotted var(--border-soft); gap: 3mm;
+  }
+  .edu-row:last-of-type { border-bottom: none; }
+  .edu-row .school {
+    font-family: var(--serif); font-weight: 500; font-size: 10.5pt;
+  }
+  .edu-row .major { color: var(--olive); font-size: 9.2pt; }
+  .edu-row .note { color: var(--stone); font-size: 8.6pt; }
+  .edu-row .date {
+    color: var(--stone); font-variant-numeric: tabular-nums;
+    font-size: 9pt; white-space: nowrap; flex-shrink: 0;
+  }
+
+  /* KEY-VALUE ROWS (mentoring, awards, skills) */
+  .kv-row {
+    display: flex; gap: 3mm; padding: 0.9mm 0;
+    border-bottom: 0.3pt dotted var(--border); align-items: baseline;
+  }
+  .kv-row:last-of-type { border-bottom: none; }
+  .kv-label {
+    font-size: 8.3pt; font-weight: 600;
+    color: var(--brand); letter-spacing: 0.4pt;
+    text-transform: uppercase;
+    width: 30mm; flex-shrink: 0; line-height: 1.35;
+  }
+  .kv-body { font-size: 9pt; color: var(--near-black); line-height: 1.45; flex: 1; }
+  .kv-body .muted { color: var(--olive); }
+  .kv-body .year { color: var(--brand); font-weight: 500; font-variant-numeric: tabular-nums; }
+  .kv-body .hl { color: var(--brand); font-weight: 500; }
+
+  /* RESEARCH / GENERIC TWO-LINE ITEM */
+  .res-item {
+    padding: 0.9mm 0;
+    border-bottom: 0.3pt dotted var(--border);
+    break-inside: avoid;
+  }
+  .res-item:last-of-type { border-bottom: none; }
+  .res-head {
+    display: flex; align-items: baseline;
+    justify-content: space-between; gap: 3mm; margin-bottom: 0.3mm;
+  }
+  .res-title {
+    font-size: 9.6pt; font-weight: 500;
+    color: var(--near-black); line-height: 1.35; flex: 1;
+  }
+  .res-title .lab { color: var(--olive); font-weight: 400; }
+  .res-date {
+    font-size: 8.8pt; color: var(--stone);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  .res-meta { font-size: 8.6pt; color: var(--olive); line-height: 1.4; }
+  .res-meta .hl { color: var(--brand); font-weight: 500; }
+
+  /* SUB-SECTION HEADING inside a report block */
+  .sub-head {
+    font-size: 8.6pt; font-weight: 600; color: var(--brand);
+    letter-spacing: 0.5pt; text-transform: uppercase;
+    margin: 1.6mm 0 0.6mm 0;
+  }
+  section > .sub-head:first-of-type { margin-top: 0.4mm; }
+
+  /* NUMBERED PUBLICATIONS */
+  .num-pub { padding: 0.35mm 0; break-inside: avoid; display: flex; gap: 2mm; }
+  .num-pub .n {
+    font-size: 8.6pt; color: var(--brand); font-weight: 600;
+    font-variant-numeric: tabular-nums; width: 5mm; flex-shrink: 0;
+    padding-top: 0.2mm;
+  }
+  .num-pub .cite { font-size: 8.8pt; line-height: 1.42; color: var(--near-black); flex: 1; }
+  .num-pub .cite .self { font-weight: 600; color: var(--near-black); }
+  .num-pub .cite .ptitle { color: var(--brand); font-weight: 500; }
+  .num-pub .cite em { color: var(--olive); }
+  .pub-foot { font-size: 8pt; color: var(--stone); font-style: italic; margin-top: 1mm; }
+  .pub-lead { font-size: 8.4pt; color: var(--stone); margin-bottom: 0.8mm; }
+  .pub-lead a { color: var(--dark-warm); }
+
+  /* NARRATIVE */
+  .narrative p {
+    font-size: 9pt; line-height: 1.5; color: var(--near-black);
+    margin-bottom: 2mm; text-align: justify;
+  }
+  .narrative p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="name serif">Cankun Wang</div>
+<div class="id-affil">BDSC, School of Public Health · UT Southwestern Medical Center, Dallas, TX</div>  <div class="id-contact">
+    <span class="mono">614-378-4915</span>
+<span class="sep">·</span><a href="https://github.com/Wang-Cankun">github.com/Wang-Cankun</a><span class="sep">·</span><a href="https://scholar.google.com/citations?user=MCccvxgAAAAJ">Google Scholar</a>  </div>
+</div>
+
+
+<section>
+  <div class="section-title">Education</div>
+  <div class="edu-row">
+    <div>
+      <span class="school serif">South Dakota State University, Brookings, SD</span>
+      <span class="major"> &middot; M.S., Plant Science</span>
+<br><span class="note">Department of Agronomy, Horticulture &amp; Plant Science</span>    </div>
+    <div class="date">2019</div>
+  </div>
+  <div class="edu-row">
+    <div>
+      <span class="school serif">Beijing Jiaotong University, Beijing, China</span>
+      <span class="major"> &middot; B.S., Software Engineering</span>
+<br><span class="note">School of Software Engineering</span>    </div>
+    <div class="date">2017</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Professional Experience</div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">BDSC, School of Public Health · UT Southwestern Medical Center</div>
+      <div class="exp-date">09/2026 - present</div>
+    </div>
+    <div class="exp-role">Data Scientist II</div>
+    <ul class="exp-bullets">
+      <li>Develop algorithms, research software, and computational infrastructure for biomedical research.</li>
+      <li>Collaborate with researchers and bioinformatics teams to define computational problems and develop, test, and maintain analysis tools.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Pelotonia Institute for Immuno-Oncology · OSU Comprehensive Cancer Center</div>
+      <div class="exp-date">07/2024 - 08/2026</div>
+    </div>
+    <div class="exp-role">Biostatistics Senior Analyst</div>
+    <ul class="exp-bullets">
+      <li>Led the <span class="hl">AI infrastructure team</span> at the Center for AI &amp; Bioinformatics in Immuno-Oncology (CATION) at PIIO. Built agent-driven research infrastructure for PIIO investigators: conversational research agents over biomedical knowledge bases, reusable agent skill libraries, and a multi-provider LLM gateway with usage tracking and cost optimization.</li>
+      <li>Led computational analysis of bulk, single-cell, and spatial multi-omics datasets across immuno-oncology, cardiac development, lung disease, and neurodegeneration programs; contributing or co-first author on cross-institution studies in <em class="muted">Nature Biotechnology</em>, <em class="muted">Circulation</em>, <em class="muted">Circulation Research</em>, <em class="muted">European Heart Journal</em>, and <em class="muted">Immunity</em>.</li>
+      <li>Engineered <span class="hl">full-stack research web applications</span> and interactive biomedical databases with real-time data streaming, spatial visualization, and automated testing; production deployments include ssREAD (<em class="muted">Nature Communications</em> 2024).</li>
+      <li>Managed <span class="hl">HIPAA/PHI-compliant</span> clinical and multi-omics data for multi-institutional studies, including the LCMC3 neoadjuvant atezolizumab trial (Genentech); used OSU LifeScale (Databricks) to access EHR-linked clinical data for CATION research.</li>
+      <li>Onboarded bench scientists, clinicians, and computational teams to agent-driven research workflows through hands-on training, custom skill development, and integration support.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Department of Biomedical Informatics · The Ohio State University</div>
+      <div class="exp-date">09/2019 – 07/2024</div>
+    </div>
+    <div class="exp-role">Biomedical Informatics Specialist</div>
+    <ul class="exp-bullets">
+      <li>Developed bioinformatics methods for single-cell and spatial multi-omics analysis; first or co-first author on <em class="muted">iScience</em> (scREAD), <em class="muted">Nucleic Acids Research</em> (IRIS3), <em class="muted">Cancer Research Communications</em> (intratumoral microbe identification from ORIEN), and <em class="muted">Computational and Structural Biotechnology Journal</em> (DESSO-DB).</li>
+      <li>Designed and deployed interactive biomedical web databases and R/Python packages used by external research groups, including scREAD and DESSO-DB for motif and single-cell data analysis.</li>
+      <li>Built <span class="hl">deep learning frameworks</span> for transcriptional regulation and gene regulatory network inference from single-cell multi-omics data, contributing to scGNN (<em class="muted">Nature Communications</em>) and related methods work.</li>
+      <li>Analyzed EHR-derived clinical variables to study ICU patient outcomes, supporting cross-departmental clinical informatics collaborations.</li>
+      <li>Established and managed Azure and AWS HIPAA-compliant cloud infrastructure for departmental research and clinical projects.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Department of Biomedical Informatics · The Ohio State University</div>
+      <div class="exp-date">05/2019 – 07/2019</div>
+    </div>
+    <div class="exp-role">Student Intern</div>
+    <ul class="exp-bullets">
+      <li>Developed an R package for identification of regulatory DNA motifs using ChIP-exo data.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Department of Plant Science · South Dakota State University, SD</div>
+      <div class="exp-date">01/2018 – 05/2019</div>
+    </div>
+    <div class="exp-role">Graduate Research Assistant</div>
+    <ul class="exp-bullets">
+      <li>Identified DNA transcription factor motifs using computational methods.</li>
+      <li>Developed a web server for cell-type-specific regulon inference from single-cell RNA-seq data.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Department of Mathematics · Shandong University, China</div>
+      <div class="exp-date">09/2017 – 12/2017</div>
+    </div>
+    <div class="exp-role">Research Assistant</div>
+    <ul class="exp-bullets">
+      <li>Built test modules to evaluate DNA transcription factor motif finding efficiency and explored algorithm optimization.</li>
+    </ul>
+  </div>
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-inst">Hexin Technology, Beijing, China</div>
+      <div class="exp-date">02/2014 – 07/2014</div>
+    </div>
+    <div class="exp-role">Data Analyst Intern</div>
+    <ul class="exp-bullets">
+      <li>Developed software to automatically extract students' incorrect answers from scanned handwritten test papers.</li>
+      <li>Curated training datasets for a deep learning NLP model.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Journal Publications</div>
+  <div class="pub-lead">Full list: <a href="https://scholar.google.com/citations?user=MCccvxgAAAAJ">https://scholar.google.com/citations?user=MCccvxgAAAAJ</a> &middot; First and co-first author (*)</div>
+  <div class="sub-head">First and Co-First Author</div>
+  <div class="num-pub">
+    <div class="n">1.</div>
+    <div class="cite"><span class="self">Cankun Wang</span>, Diana Acosta, Megan McNutt, Jiang Bian, Anjun Ma, Hongjun Fu, and Qin Ma. "<span class="ptitle">A Single-Cell and Spatial RNA-Seq Database for Alzheimer's Disease (ssREAD).</span>" <em class="muted">Nature Communications</em> 15, no. 1 (2024): 4710.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">2.</div>
+    <div class="cite"><span class="self">Cankun Wang</span>, Anjun Ma, Yingjie Li, Megan E. McNutt, Shiqi Zhang, Jiangjiang Zhu, Rebecca Hoyd, et al. "<span class="ptitle">A Bioinformatics Tool for Identifying Intratumoral Microbes from the ORIEN Dataset.</span>" <em class="muted">Cancer Research Communications</em> 4, no. 2 (2024): 293–302.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">3.</div>
+    <div class="cite">Shiqiao Ye*, <span class="self">Cankun Wang*</span>, Zhaohui Xu*, Hui Lin, Xiaoping Wan, Yang Yu, Subhodip Adhicary, Joe Z. Zhang, Yang Zhou, Chun Liu, Matthew Alonzo, Jianli Bi, Angelina Ramirez-Navarro, Isabelle Deschenes, Qin Ma, Vidu Garg, Joseph C. Wu, and Ming-Tao Zhao. "<span class="ptitle">Impaired Human Cardiac Cell Development due to NOTCH1 Deficiency.</span>" <em class="muted">Circulation Research</em> (2023). doi:10.1161/CIRCRESAHA.122.321398</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">4.</div>
+    <div class="cite">Xiaoying Wang*, <span class="self">Cankun Wang*</span>, Lang Li, Qin Ma, Anjun Ma, and Bingqiang Liu. "<span class="ptitle">DESSO-DB: A Web Database for Sequence and Shape Motif Analyses and Identification.</span>" <em class="muted">Computational and Structural Biotechnology Journal</em> 20 (2022): 3053–3058.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">5.</div>
+    <div class="cite"><span class="self">Cankun Wang</span>, Yujia Xiang, Hongjun Fu, and Qin Ma. "<span class="ptitle">Use of scREAD to Explore and Analyze Single-Cell and Single-Nucleus RNA-Seq Data for Alzheimer's Disease.</span>" <em class="muted">STAR Protocols</em> 2, no. 2 (2021): 100513.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">6.</div>
+    <div class="cite">Jing Jiang*, <span class="self">Cankun Wang*</span>, Ren Qi, Hongjun Fu, and Qin Ma. "<span class="ptitle">scREAD: A Single-Cell RNA-Seq Database for Alzheimer's Disease.</span>" <em class="muted">iScience</em> 23, no. 11 (2020): 101769.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">7.</div>
+    <div class="cite">Anjun Ma*, <span class="self">Cankun Wang*</span>, Yuzhou Chang, Faith H. Brennan, Adam McDermaid, Bingqiang Liu, Chi Zhang, Phillip G. Popovich, and Qin Ma. "<span class="ptitle">IRIS3: Integrated Cell-Type-Specific Regulon Inference Server from Single-Cell RNA-Seq.</span>" <em class="muted">Nucleic Acids Research</em> 48, no. W1 (2020): W275–W286.</div>
+  </div>
+  <div class="sub-head">Selected Contributing Author</div>
+  <div class="num-pub">
+    <div class="n">1.</div>
+    <div class="cite">Liao, Guanrui, Tsuguhisa Nakayama, Bokai Zhu, et al. "<span class="ptitle">Multi-Scaled Transcriptomics of Chronically Inflamed Nasal Epithelium Reveals Immune-Epithelial Dynamics and Tissue Remodeling in Nasal Polyp Formation.</span>" <em class="muted">Immunity</em> 58, no. 10 (2025): 2593–2608.e6.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">2.</div>
+    <div class="cite">Lobentanzer, Sebastian, Shaohong Feng, Noah Bruderer, Andreas Maier, <span class="self">Cankun Wang</span>, Jan Baumbach, Jorge Abreu-Vicente, et al. "<span class="ptitle">A Platform for the Biomedical Application of Large Language Models.</span>" <em class="muted">Nature Biotechnology</em> 43, no. 2 (2025): 166–169.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">3.</div>
+    <div class="cite">Yu, Yang, <span class="self">Cankun Wang</span>, Shiqiao Ye, Hannah Qin, Matthew Alonzo, Angela Onorato, Aaron Argall, et al. "<span class="ptitle">Common and Divergent Cellular Aetiologies Underlying Hypoplastic Left Heart Syndrome and Hypoplastic Right Heart Syndrome.</span>" <em class="muted">European Heart Journal</em> 46, no. 20 (2025): 1946–1949.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">4.</div>
+    <div class="cite">Alonzo, Matthew, Zhaohui Xu, Yang Yu, Shiqiao Ye, <span class="self">Cankun Wang</span>, Jerry Wang, Megan McNutt, et al. "<span class="ptitle">Cell-Free RNA Signatures in Maternal Blood with Fetal Congenital Heart Disease.</span>" <em class="muted">Circulation Research</em> 135, no. 10 (2024): 1021–1024.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">5.</div>
+    <div class="cite">Anjun Ma, Xiaoying Wang, Jingxian Li, <span class="self">Cankun Wang</span>, Tong Xiao, Yuntao Liu, Hao Cheng, Juexin Wang, Yang Li, Yuzhou Chang, Jinpu Li, Duolin Wang, Yuexu Jiang, Li Su, Gang Xin, Shaopeng Gu, Zihai Li, Bingqiang Liu, Dong Xu, and Qin Ma. "<span class="ptitle">Single-Cell Biological Network Inference Using a Heterogeneous Graph Transformer.</span>" <em class="muted">Nature Communications</em> 14, no. 1 (2023): 964.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">6.</div>
+    <div class="cite">Faith H. Brennan, Yang Li, <span class="self">Cankun Wang</span>, Anjun Ma, Qi Guo, Yi Li, Nicole Pukos, Warren A. Campbell, Kristina G. Witcher, Zhen Guan, Kristina A. Kigerl, Jodie C. E. Hall, Jonathan P. Godbout, Andy J. Fischer, Dana M. McTigue, Zhigang He, Qin Ma, and Phillip G. Popovich. "<span class="ptitle">Microglia Coordinate Cellular Interactions during Spinal Cord Repair in Mice.</span>" <em class="muted">Nature Communications</em> 13, no. 1 (2022): 4096.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">7.</div>
+    <div class="cite">SenNet Consortium. "<span class="ptitle">NIH SenNet Consortium to Map Senescent Cells throughout the Human Lifespan to Understand Physiological Health.</span>" <em class="muted">Nature Aging</em> 2, no. 12 (2022): 1090–1100.</div>
+  </div>
+  <div class="sub-head">Contributing Author</div>
+  <div class="num-pub">
+    <div class="n">1.</div>
+    <div class="cite">Acosta, Diana, <span class="self">Cankun Wang</span>, Qin Ma, and Hongjun Fu. "<span class="ptitle">Utilizing Single-Cell and Spatial RNA-Seq Database for Alzheimer's Disease (ssREAD) in Hypothesis-Driven Queries.</span>" <em class="muted">Neural Regeneration Research</em> 21, no. 2 (2026): 677.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">2.</div>
+    <div class="cite">Baoyinna, Baoyinna, Jinshan He, Jiaxing Miao, et al. "<span class="ptitle">Activation of USP30 Disrupts Endothelial Cell Function and Aggravates Acute Lung Injury through Regulating the S-Adenosylmethionine Cycle.</span>" <em class="muted">Advanced Science</em> 13, no. 2 (2026): e12807.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">3.</div>
+    <div class="cite">Hasanaj, Euxhen, Delphine Beaulieu, <span class="self">Cankun Wang</span>, Qianjiang Hu, Marta Bueno, John C. Sembrat, Ricardo H. Pineda, et al. "<span class="ptitle">SenSet, a Novel Human Lung Senescence Cell Gene Signature, Identifies Cell-Specific Senescence Mechanisms.</span>" <em class="muted">bioRxiv</em> (2024).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">4.</div>
+    <div class="cite">Lo Cascio, Filippa, Suhyeorn Park, Urmi Sengupta, Nicha Puangmalai, Nemil Bhatt, Nikita Shchankin, Cynthia Jerez, <span class="self">Cankun Wang</span>, et al. "<span class="ptitle">Brain-Derived Tau Oligomer Polymorphs: Distinct Aggregations, Stability Profiles, and Biological Activities.</span>" <em class="muted">Communications Biology</em> 8, no. 1 (2025): 53.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">5.</div>
+    <div class="cite">Li, Yang, Anjun Ma, Yizhong Wang, <span class="self">Cankun Wang</span>, Shuo Chen, Hongjun Fu, Bingqiang Liu, and Qin Ma. "<span class="ptitle">Enhancer-Driven Gene Regulatory Networks Inference from Single-Cell RNA-Seq and ATAC-Seq Data.</span>" <em class="muted">Briefings in Bioinformatics</em> 25, no. 5 (2024): bbae369.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">6.</div>
+    <div class="cite">Yu, Yang, <span class="self">Cankun Wang</span>, Shiqiao Ye, Zhaohui Xu, Hui Lin, Karen Texter, Vasudha Shukla, et al. "<span class="ptitle">Abnormal Progenitor Cell Differentiation and Cardiomyocyte Proliferation in Hypoplastic Right Heart Syndrome.</span>" <em class="muted">Circulation</em> 149, no. 11 (2024): 888–891.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">7.</div>
+    <div class="cite">Li, Jianying, Anjun Ma, Ruohan Zhang, Yao Chen, Chelsea Bolyard, Bao Zhao, <span class="self">Cankun Wang</span>, et al. "<span class="ptitle">Targeting Metabolic Sensing Switch GPR84 on Macrophages for Cancer Immunotherapy.</span>" <em class="muted">Cancer Immunology, Immunotherapy</em> 73, no. 3 (2024): 52.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">8.</div>
+    <div class="cite">Li, Yang, Yizhong Wang, <span class="self">Cankun Wang</span>, Anjun Ma, Qin Ma, and Bingqiang Liu. "<span class="ptitle">A Weighted Two-Stage Sequence Alignment Framework to Identify Motifs from ChIP-Exo Data.</span>" <em class="muted">Patterns</em> (2024).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">9.</div>
+    <div class="cite">Li, Yingjie, <span class="self">Cankun Wang</span>, Anjun Ma, Abdul Qawee Rani, Mingjue Luo, Jenny Li, Xuefeng Liu, and Qin Ma. "<span class="ptitle">Identification of HPV Oncogene and Host Cell Differentiation Associated Cellular Heterogeneity in Cervical Cancer via Single-Cell Transcriptomic Analysis.</span>" <em class="muted">Journal of Medical Virology</em> 95, no. 8 (2023): e29060.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">10.</div>
+    <div class="cite">Wang, Yizhong, Yang Li, <span class="self">Cankun Wang</span>, Chan-Wang Jerry Lio, Qin Ma, and Bingqiang Liu. "<span class="ptitle">CeMiG: Prediction of the Cis-Regulatory Motif Using the De Bruijn Graph from ATAC-Seq.</span>" <em class="muted">Briefings in Bioinformatics</em> 25, no. 1 (2024): bbad505.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">11.</div>
+    <div class="cite">Xiao, Tong, Johanna Schafer, No-joon Song, <span class="self">Cankun Wang</span>, Payton Weltge, Xue Li, Qin Ma, and Zihai Li. "<span class="ptitle">Novel Mechanisms of Androgen Receptor-Centered Transcriptional Regulatory Network in Regulating CD8+ T Cell Exhaustion and Sex Bias in Cancer.</span>" <em class="muted">The Journal of Immunology</em> 210, no. 1_Supplement (2023): 171.13–71.13.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">12.</div>
+    <div class="cite">Hussan, Hisham, Steven K. Clinton, Elizabeth M. Grainger, Maxine Webb, <span class="self">Cankun Wang</span>, Amy Webb, Bradley Needleman, et al. "<span class="ptitle">Distinctive Patterns of Sulfide- and Butyrate-Metabolizing Bacteria after Bariatric Surgery: Potential Implications for Colorectal Cancer Risk.</span>" <em class="muted">Gut Microbes</em> 15, no. 2 (2023): 2255345.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">13.</div>
+    <div class="cite">Jeffrey R. Atkinson, Andrew D. Jerome, Andrew R. Sas, Ashley Munie, <span class="self">Cankun Wang</span>, Anjun Ma, William D. Arnold, and Benjamin M. Segal. "<span class="ptitle">Biological Aging of CNS-Resident Cells Alters the Clinical Course and Immunopathology of Autoimmune Demyelinating Disease.</span>" <em class="muted">JCI Insight</em> 7, no. 12 (2022).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">14.</div>
+    <div class="cite">Shuo Chen, Diana Acosta, Liangping Li, Jiawen Liang, Yuzhou Chang, <span class="self">Cankun Wang</span>, et al. "<span class="ptitle">Wolframin Is a Novel Regulator of Tau Pathology and Neurodegeneration.</span>" <em class="muted">Acta Neuropathologica</em> (2022).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">15.</div>
+    <div class="cite">Shuo Chen, Yuzhou Chang, Liangping Li, Diana Acosta, Yang Li, Qi Guo, <span class="self">Cankun Wang</span>, Emir Turkes, Cody Morrison, Dominic Julian, Mark E. Hester, Douglas W. Scharre, Chintda Santiskulvong, Sarah Xueying Song, Jasmine T. Plummer, Geidy E. Serrano, Thomas G. Beach, Karen E. Duff, Qin Ma, and Hongjun Fu. "<span class="ptitle">Spatially Resolved Transcriptomics Reveals Genes Associated with the Vulnerability of Middle Temporal Gyrus in Alzheimer's Disease.</span>" <em class="muted">Acta Neuropathologica Communications</em> 10, no. 1 (2022): 188.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">16.</div>
+    <div class="cite">SenNet Consortium. "<span class="ptitle">NIH SenNet Consortium to Map Senescent Cells throughout the Human Lifespan to Understand Physiological Health.</span>" <em class="muted">Nature Aging</em> 2, no. 12 (2022): 1090–1100.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">17.</div>
+    <div class="cite">Ying Li, Jianing Zhao, Zhaoqian Liu, <span class="self">Cankun Wang</span>, Lizheng Wei, Siyu Han, and Wei Du. "<span class="ptitle">De Novo Prediction of Moonlighting Proteins Using Multimodal Deep Ensemble Learning.</span>" <em class="muted">Frontiers in Genetics</em> 12 (2021).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">18.</div>
+    <div class="cite">Juexin Wang, Anjun Ma, Yuzhou Chang, Jianting Gong, Yuexu Jiang, Ren Qi, <span class="self">Cankun Wang</span>, Hongjun Fu, Qin Ma, and Dong Xu. "<span class="ptitle">scGNN Is a Novel Graph Neural Network Framework for Single-Cell RNA-Seq Analyses.</span>" <em class="muted">Nature Communications</em> 12, no. 1 (2021): 1882.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">19.</div>
+    <div class="cite">Ying Li, Qi Zhang, Zhaoqian Liu, <span class="self">Cankun Wang</span>, Siyu Han, Qin Ma, and Wei Du. "<span class="ptitle">Deep Forest Ensemble Learning for Classification of Alignments of Non-Coding RNA Sequences Based on Multi-View Structure Representations.</span>" <em class="muted">Briefings in Bioinformatics</em> (2020): bbaa354.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">20.</div>
+    <div class="cite">Mengting Niu, Jun Zhang, Yanjuan Li, <span class="self">Cankun Wang</span>, Zhaoqian Liu, Hui Ding, Quan Zou, and Qin Ma. "<span class="ptitle">CirRNAPL: A Web Server for the Identification of circRNA Based on Extreme Learning Machine.</span>" <em class="muted">Computational and Structural Biotechnology Journal</em> 18 (2020): 834–842.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">21.</div>
+    <div class="cite">Padmapriya Swaminathan, Michelle Ohrtman, Abigail Carinder, Anup Deuja, <span class="self">Cankun Wang</span>, John Gaskin, Anne Fennell, and Sharon Clay. "<span class="ptitle">Water Deficit Transcriptomic Responses Differ in the Invasive Tamarix chinensis and T. ramosissima Established in the Southern and Northern United States.</span>" <em class="muted">Plants</em> 9, no. 1 (2020): 86.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">22.</div>
+    <div class="cite">Juan Xie, Anjun Ma, Yu Zhang, Bingqiang Liu, Sha Cao, <span class="self">Cankun Wang</span>, Jennifer Xu, Chi Zhang, and Qin Ma. "<span class="ptitle">QUBIC2: A Novel and Robust Biclustering Algorithm for Analyses and Interpretation of Large-Scale RNA-Seq Data.</span>" <em class="muted">Bioinformatics</em> 36, no. 4 (2020): 1143–1149.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">23.</div>
+    <div class="cite">Brandon Monier, Adam McDermaid, <span class="self">Cankun Wang</span>, Jing Zhao, Allison Miller, Anne Fennell, and Qin Ma. "<span class="ptitle">IRIS-EDA: An Integrated RNA-Seq Interpretation System for Gene Expression Data Analysis.</span>" <em class="muted">PLOS Computational Biology</em> 15, no. 2 (2019): e1006792.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">24.</div>
+    <div class="cite">Yan Wang, Sen Yang, Jing Zhao, Wei Du, Yanchun Liang, <span class="self">Cankun Wang</span>, Fengfeng Zhou, Yuan Tian, and Qin Ma. "<span class="ptitle">Using Machine Learning to Measure Relatedness between Genes: A Multi-Features Model.</span>" <em class="muted">Scientific Reports</em> 9, no. 1 (2019).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">25.</div>
+    <div class="cite">Ye Xia, Seth Debolt, Qin Ma, Adam McDermaid, <span class="self">Cankun Wang</span>, Nicole Shapiro, Tanja Woyke, and Nikos C. Kyrpides. "<span class="ptitle">Improved Draft Genome Sequence of Bacillus sp. Strain YF23, Which Has Plant Growth-Promoting Activity.</span>" <em class="muted">Microbiology Resource Announcements</em> 8, no. 15 (2019).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">26.</div>
+    <div class="cite">Ye Xia, Seth Debolt, Qin Ma, Adam McDermaid, <span class="self">Cankun Wang</span>, Nicole Shapiro, Tanja Woyke, and Nikos C. Kyrpides. "<span class="ptitle">Improved Draft Genome Sequence of Pseudomonas poae A2-S9, a Strain with Plant Growth-Promoting Activity.</span>" <em class="muted">Microbiology Resource Announcements</em> 8, no. 15 (2019).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">27.</div>
+    <div class="cite">Jinyu Yang, Anjun Ma, Adam D. Hoppe, <span class="self">Cankun Wang</span>, Yang Li, Chi Zhang, Yan Wang, Bingqiang Liu, and Qin Ma. "<span class="ptitle">Prediction of Regulatory Motifs from Human ChIP-Sequencing Data Using a Deep Learning Framework.</span>" <em class="muted">Nucleic Acids Research</em> 47, no. 15 (2019): 7809–7824.</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">28.</div>
+    <div class="cite">Adam McDermaid, Xin Chen, Yiran Zhang, <span class="self">Cankun Wang</span>, Shaopeng Gu, Juan Xie, and Qin Ma. "<span class="ptitle">A New Machine Learning-Based Framework for Mapping Uncertainty Analysis in RNA-Seq Read Alignment and Gene Expression Estimation.</span>" <em class="muted">Frontiers in Genetics</em> 9 (2018).</div>
+  </div>
+  <div class="num-pub">
+    <div class="n">29.</div>
+    <div class="cite">Siyu Han, Yanchun Liang, Qin Ma, Yangyi Xu, Yu Zhang, Wei Du, <span class="self">Cankun Wang</span>, and Ying Li. "<span class="ptitle">LncFinder: An Integrated Platform for Long Non-Coding RNA Identification Utilizing Sequence Intrinsic Composition, Structural Information and Physicochemical Property.</span>" <em class="muted">Briefings in Bioinformatics</em> (2018).</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Presentations</div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BioChatter: Conversational AI for Biomedical Applications <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2025</div>
+    </div>
+<div class="res-meta">Education &amp; Innovation in AI and Cancer Immunology. Columbus, OH.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BioChatter: A Platform for the Biomedical Application of Large Language Models <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2025</div>
+    </div>
+<div class="res-meta">PIIO Research in Progress. Columbus, OH.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">A Single-Cell and Spatial RNA-Seq Database for Alzheimer&#39;s Disease (ssREAD) <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2024</div>
+    </div>
+<div class="res-meta">International Conference on Intelligent Biology and Medicine (ICIBM 2024). Houston, TX.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">A Weighted Two-Stage Sequence Alignment Framework to Identify DNA Motifs from ChIP-exo Data <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2023</div>
+    </div>
+<div class="res-meta">International Conference on Intelligent Biology and Medicine (ICIBM 2023). Tampa, FL.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">TriState Data Analysis Core: Advancements in Data Submission, Analysis, and Tool Development <span class="lab">&middot; Poster Presentation</span></div>
+      <div class="res-date">2023</div>
+    </div>
+<div class="res-meta">SenNet TriState Annual Conference 2023. Rochester, NY.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Identifying Cell-Type-Specific Senescent Cells and Signature Genes Using Heterogeneous Graph Contrastive Learning <span class="lab">&middot; Poster Presentation</span></div>
+      <div class="res-date">2023</div>
+    </div>
+<div class="res-meta">SenNet Annual Meeting 2023. Minneapolis, MN.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Analyze RNA-Seq Data Using IRIS-EDA Web Server <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2021</div>
+    </div>
+<div class="res-meta">Vitismeet: Grapes at UC Davis &amp; SLU. Columbus, OH.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Computational Tool and Pipeline for RNA-Seq Data Analysis <span class="lab">&middot; Oral Presentation</span></div>
+      <div class="res-date">2020</div>
+    </div>
+<div class="res-meta">NSF PGRP Grape Grafting Annual Meeting. Columbus, OH.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Identification of Regulatory DNA Motifs Using ChIP-exo Data <span class="lab">&middot; Poster Presentation</span></div>
+      <div class="res-date">2019</div>
+    </div>
+<div class="res-meta">BMI Internship Poster Session. Columbus, OH.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Development of Regulatory Motif Identification Program <span class="lab">&middot; Poster Presentation</span></div>
+      <div class="res-date">2019</div>
+    </div>
+<div class="res-meta">BioSNTR Plant Science Research Day. Brookings, SD.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Combining Computational Methods and Experimental Data for Motif Prediction <span class="lab">&middot; Poster Presentation</span></div>
+      <div class="res-date">2018</div>
+    </div>
+<div class="res-meta">BioSNTR Plant Science Research Day. Brookings, SD.</div>  </div>
+</section>
+
+<section>
+  <div class="section-title">Teaching</div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BMI 5750: Methods in Biomedical Informatics <span class="lab">&middot; Guest Lecturer</span></div>
+      <div class="res-date">2026</div>
+    </div>
+<div class="res-meta">Department of Biomedical Informatics, OSU. Topic: BioChatter as the biomedical application platform of large language models.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BISR Bioinformatics Workshop <span class="lab">&middot; Lecturer</span></div>
+      <div class="res-date">2024</div>
+    </div>
+<div class="res-meta">Department of Biomedical Informatics, OSU.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BISR CRISPR Screening Workshop <span class="lab">&middot; Lecturer</span></div>
+      <div class="res-date">2021</div>
+    </div>
+<div class="res-meta">Department of Biomedical Informatics, OSU.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">BISR RNA-Seq Workshop <span class="lab">&middot; Lecturer</span></div>
+      <div class="res-date">2021</div>
+    </div>
+<div class="res-meta">Department of Biomedical Informatics, OSU.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Applications of Machine Learning and Artificial Intelligence <span class="lab">&middot; Guest Lecturer</span></div>
+      <div class="res-date">2020</div>
+    </div>
+<div class="res-meta">Department of Biomedical Informatics, OSU.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Single-Cell Sequencing Data Analysis Workshop <span class="lab">&middot; Guest Lecturer</span></div>
+      <div class="res-date">2020</div>
+    </div>
+<div class="res-meta">Iowa State University.</div>  </div>
+  <div class="res-item">
+    <div class="res-head">
+      <div class="res-title">Applied Bioinformatics <span class="lab">&middot; Teaching Assistant (Dr. Xijin Ge)</span></div>
+      <div class="res-date">2019</div>
+    </div>
+<div class="res-meta">Department of Mathematics and Statistics, South Dakota State University.</div>  </div>
+</section>
+
+<section>
+  <div class="section-title">Mentoring</div>
+  <div class="kv-row">
+    <div class="kv-label">2026</div>
+    <div class="kv-body">Jonathan Yang <em class="muted">(Undergraduate, The Ohio State University)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2023–2024</div>
+    <div class="kv-body">Siqi Lin <em class="muted">(Huazhong University of Science and Technology, China)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2022–2023</div>
+    <div class="kv-body">Megan McNutt <em class="muted">(Senior Research Technician, OSU)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2023</div>
+    <div class="kv-body">Grace Xu <em class="muted">(High school intern, Dublin, OH)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2023</div>
+    <div class="kv-body">Kevin Wang <em class="muted">(High school intern, Columbus, OH)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2022</div>
+    <div class="kv-body">Jiaxin Yang <em class="muted">(Undergraduate, OSU)</em></div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">2022</div>
+    <div class="kv-body">Mohnish Karthikeyan <em class="muted">(High school intern, Mason, OH)</em></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Awards</div>
+  <div class="kv-row">
+    <div class="kv-label">2022</div>
+    <div class="kv-body"><span style="font-weight: 500;">Excellence in Team Science (Staff)</span> <span class="muted">&middot; Department of Biomedical Informatics, OSU</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Skills</div>
+  <div class="kv-row">
+    <div class="kv-label">AI Agent Development</div>
+    <div class="kv-body">LLM application design, Retrieval-Augmented Generation (RAG), knowledge graphs, multi-agent orchestration, agent skills, AI gateway management (LiteLLM), local and cloud LLM deployment.</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">Bioinformatics &amp; Data Analysis</div>
+    <div class="kv-body">Next-generation sequencing, single-cell multi-omics data analysis, high-performance computing, and reproducible workflows (R, Python, HPC systems).</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">Cloud Infrastructure</div>
+    <div class="kv-body">Establishment and management of HIPAA-compliant platforms, foundational biomedical AI model hosting, GPU cluster management, cost optimization (AWS, Azure).</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">Full-Stack Development</div>
+    <div class="kv-body">Full-stack web development (Vue.js, NestJS, TypeScript, MySQL).</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">DevOps</div>
+    <div class="kv-body">Automation and deployment (GitHub Actions, Azure DevOps, Docker).</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">Machine Learning &amp; AI</div>
+    <div class="kv-body">Deep learning model development and deployment (ConvNet, Graph Transformer, AWS SageMaker).</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">EHR Data Management</div>
+    <div class="kv-body">Clinical data lake platforms (OSU LifeScale / Databricks), multi-site cohort harmonization (e.g., LCMC3), HIPAA-compliant data workflows.</div>
+  </div>
+  <div class="kv-row">
+    <div class="kv-label">Data Visualization</div>
+    <div class="kv-body">Interactive and publication-quality figures (Adobe Illustrator, ggplot2, Circos, Shiny).</div>
+  </div>
+</section>
+
+</body>
+</html>

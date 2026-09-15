@@ -1,0 +1,217 @@
+{
+  "_rendering_convention": "Academic CV rendered through cankun-cv.template.html. Markup tokens (see build.py): **text** -> brand-color emphasis; //text// -> italic muted (journal names); {self} -> bold self-name; {self*} -> bold self-name with co-first asterisk. Publications grouped, numbered restart per group, reverse-chronological within group.",
+
+  "self_author_token": "Cankun Wang",
+
+  "meta": {
+    "name": "Cankun Wang",
+    "affiliation_lines": [
+      "BDSC, School of Public Health",
+      "UT Southwestern Medical Center, Dallas, TX"
+    ],
+    "work_phone": "614-378-4915",
+    "work_email": "",
+    "github": "https://github.com/Wang-Cankun",
+    "github_label": "github.com/Wang-Cankun",
+    "google_scholar": "https://scholar.google.com/citations?user=MCccvxgAAAAJ"
+  },
+
+  "education": [
+    {
+      "dates": "2019",
+      "degree": "M.S., Plant Science",
+      "fields": "Department of Agronomy, Horticulture & Plant Science",
+      "institution": "South Dakota State University, Brookings, SD"
+    },
+    {
+      "dates": "2017",
+      "degree": "B.S., Software Engineering",
+      "fields": "School of Software Engineering",
+      "institution": "Beijing Jiaotong University, Beijing, China"
+    }
+  ],
+
+  "professional_experience": [
+    {
+      "dates": "09/2026 - present",
+      "position": "Data Scientist II",
+      "institution": "BDSC, School of Public Health · UT Southwestern Medical Center",
+      "bullets": [
+        "Develop algorithms, research software, and computational infrastructure for biomedical research.",
+        "Collaborate with researchers and bioinformatics teams to define computational problems and develop, test, and maintain analysis tools."
+      ]
+    },
+    {
+      "dates": "07/2024 - 08/2026",
+      "position": "Biostatistics Senior Analyst",
+      "institution": "Pelotonia Institute for Immuno-Oncology · OSU Comprehensive Cancer Center",
+      "bullets": [
+        "Led the **AI infrastructure team** at the Center for AI & Bioinformatics in Immuno-Oncology (CATION) at PIIO. Built agent-driven research infrastructure for PIIO investigators: conversational research agents over biomedical knowledge bases, reusable agent skill libraries, and a multi-provider LLM gateway with usage tracking and cost optimization.",
+        "Led computational analysis of bulk, single-cell, and spatial multi-omics datasets across immuno-oncology, cardiac development, lung disease, and neurodegeneration programs; contributing or co-first author on cross-institution studies in //Nature Biotechnology//, //Circulation//, //Circulation Research//, //European Heart Journal//, and //Immunity//.",
+        "Engineered **full-stack research web applications** and interactive biomedical databases with real-time data streaming, spatial visualization, and automated testing; production deployments include ssREAD (//Nature Communications// 2024).",
+        "Managed **HIPAA/PHI-compliant** clinical and multi-omics data for multi-institutional studies, including the LCMC3 neoadjuvant atezolizumab trial (Genentech); used OSU LifeScale (Databricks) to access EHR-linked clinical data for CATION research.",
+        "Onboarded bench scientists, clinicians, and computational teams to agent-driven research workflows through hands-on training, custom skill development, and integration support."
+      ]
+    },
+    {
+      "dates": "09/2019 – 07/2024",
+      "position": "Biomedical Informatics Specialist",
+      "institution": "Department of Biomedical Informatics · The Ohio State University",
+      "bullets": [
+        "Developed bioinformatics methods for single-cell and spatial multi-omics analysis; first or co-first author on //iScience// (scREAD), //Nucleic Acids Research// (IRIS3), //Cancer Research Communications// (intratumoral microbe identification from ORIEN), and //Computational and Structural Biotechnology Journal// (DESSO-DB).",
+        "Designed and deployed interactive biomedical web databases and R/Python packages used by external research groups, including scREAD and DESSO-DB for motif and single-cell data analysis.",
+        "Built **deep learning frameworks** for transcriptional regulation and gene regulatory network inference from single-cell multi-omics data, contributing to scGNN (//Nature Communications//) and related methods work.",
+        "Analyzed EHR-derived clinical variables to study ICU patient outcomes, supporting cross-departmental clinical informatics collaborations.",
+        "Established and managed Azure and AWS HIPAA-compliant cloud infrastructure for departmental research and clinical projects."
+      ]
+    },
+    {
+      "dates": "05/2019 – 07/2019",
+      "position": "Student Intern",
+      "institution": "Department of Biomedical Informatics · The Ohio State University",
+      "bullets": [
+        "Developed an R package for identification of regulatory DNA motifs using ChIP-exo data."
+      ]
+    },
+    {
+      "dates": "01/2018 – 05/2019",
+      "position": "Graduate Research Assistant",
+      "institution": "Department of Plant Science · South Dakota State University, SD",
+      "bullets": [
+        "Identified DNA transcription factor motifs using computational methods.",
+        "Developed a web server for cell-type-specific regulon inference from single-cell RNA-seq data."
+      ]
+    },
+    {
+      "dates": "09/2017 – 12/2017",
+      "position": "Research Assistant",
+      "institution": "Department of Mathematics · Shandong University, China",
+      "bullets": [
+        "Built test modules to evaluate DNA transcription factor motif finding efficiency and explored algorithm optimization."
+      ]
+    },
+    {
+      "dates": "02/2014 – 07/2014",
+      "position": "Data Analyst Intern",
+      "institution": "Hexin Technology, Beijing, China",
+      "bullets": [
+        "Developed software to automatically extract students' incorrect answers from scanned handwritten test papers.",
+        "Curated training datasets for a deep learning NLP model."
+      ]
+    }
+  ],
+
+  "publications": {
+    "scholar": "https://scholar.google.com/citations?user=MCccvxgAAAAJ",
+    "footnote": "First and co-first author (*)",
+    "groups": [
+      {
+        "label": "First and Co-First Author",
+        "entries": [
+          { "citation": "{self}, Diana Acosta, Megan McNutt, Jiang Bian, Anjun Ma, Hongjun Fu, and Qin Ma. \"A Single-Cell and Spatial RNA-Seq Database for Alzheimer's Disease (ssREAD).\" //Nature Communications// 15, no. 1 (2024): 4710." },
+          { "citation": "{self}, Anjun Ma, Yingjie Li, Megan E. McNutt, Shiqi Zhang, Jiangjiang Zhu, Rebecca Hoyd, et al. \"A Bioinformatics Tool for Identifying Intratumoral Microbes from the ORIEN Dataset.\" //Cancer Research Communications// 4, no. 2 (2024): 293–302." },
+          { "citation": "Shiqiao Ye*, {self*}, Zhaohui Xu*, Hui Lin, Xiaoping Wan, Yang Yu, Subhodip Adhicary, Joe Z. Zhang, Yang Zhou, Chun Liu, Matthew Alonzo, Jianli Bi, Angelina Ramirez-Navarro, Isabelle Deschenes, Qin Ma, Vidu Garg, Joseph C. Wu, and Ming-Tao Zhao. \"Impaired Human Cardiac Cell Development due to NOTCH1 Deficiency.\" //Circulation Research// (2023). doi:10.1161/CIRCRESAHA.122.321398" },
+          { "citation": "Xiaoying Wang*, {self*}, Lang Li, Qin Ma, Anjun Ma, and Bingqiang Liu. \"DESSO-DB: A Web Database for Sequence and Shape Motif Analyses and Identification.\" //Computational and Structural Biotechnology Journal// 20 (2022): 3053–3058." },
+          { "citation": "{self}, Yujia Xiang, Hongjun Fu, and Qin Ma. \"Use of scREAD to Explore and Analyze Single-Cell and Single-Nucleus RNA-Seq Data for Alzheimer's Disease.\" //STAR Protocols// 2, no. 2 (2021): 100513." },
+          { "citation": "Jing Jiang*, {self*}, Ren Qi, Hongjun Fu, and Qin Ma. \"scREAD: A Single-Cell RNA-Seq Database for Alzheimer's Disease.\" //iScience// 23, no. 11 (2020): 101769." },
+          { "citation": "Anjun Ma*, {self*}, Yuzhou Chang, Faith H. Brennan, Adam McDermaid, Bingqiang Liu, Chi Zhang, Phillip G. Popovich, and Qin Ma. \"IRIS3: Integrated Cell-Type-Specific Regulon Inference Server from Single-Cell RNA-Seq.\" //Nucleic Acids Research// 48, no. W1 (2020): W275–W286." }
+        ]
+      },
+      {
+        "label": "Selected Contributing Author",
+        "entries": [
+          { "citation": "Liao, Guanrui, Tsuguhisa Nakayama, Bokai Zhu, et al. \"Multi-Scaled Transcriptomics of Chronically Inflamed Nasal Epithelium Reveals Immune-Epithelial Dynamics and Tissue Remodeling in Nasal Polyp Formation.\" //Immunity// 58, no. 10 (2025): 2593–2608.e6." },
+          { "citation": "Lobentanzer, Sebastian, Shaohong Feng, Noah Bruderer, Andreas Maier, {self}, Jan Baumbach, Jorge Abreu-Vicente, et al. \"A Platform for the Biomedical Application of Large Language Models.\" //Nature Biotechnology// 43, no. 2 (2025): 166–169." },
+          { "citation": "Yu, Yang, {self}, Shiqiao Ye, Hannah Qin, Matthew Alonzo, Angela Onorato, Aaron Argall, et al. \"Common and Divergent Cellular Aetiologies Underlying Hypoplastic Left Heart Syndrome and Hypoplastic Right Heart Syndrome.\" //European Heart Journal// 46, no. 20 (2025): 1946–1949." },
+          { "citation": "Alonzo, Matthew, Zhaohui Xu, Yang Yu, Shiqiao Ye, {self}, Jerry Wang, Megan McNutt, et al. \"Cell-Free RNA Signatures in Maternal Blood with Fetal Congenital Heart Disease.\" //Circulation Research// 135, no. 10 (2024): 1021–1024." },
+          { "citation": "Anjun Ma, Xiaoying Wang, Jingxian Li, {self}, Tong Xiao, Yuntao Liu, Hao Cheng, Juexin Wang, Yang Li, Yuzhou Chang, Jinpu Li, Duolin Wang, Yuexu Jiang, Li Su, Gang Xin, Shaopeng Gu, Zihai Li, Bingqiang Liu, Dong Xu, and Qin Ma. \"Single-Cell Biological Network Inference Using a Heterogeneous Graph Transformer.\" //Nature Communications// 14, no. 1 (2023): 964." },
+          { "citation": "Faith H. Brennan, Yang Li, {self}, Anjun Ma, Qi Guo, Yi Li, Nicole Pukos, Warren A. Campbell, Kristina G. Witcher, Zhen Guan, Kristina A. Kigerl, Jodie C. E. Hall, Jonathan P. Godbout, Andy J. Fischer, Dana M. McTigue, Zhigang He, Qin Ma, and Phillip G. Popovich. \"Microglia Coordinate Cellular Interactions during Spinal Cord Repair in Mice.\" //Nature Communications// 13, no. 1 (2022): 4096." },
+          { "citation": "SenNet Consortium. \"NIH SenNet Consortium to Map Senescent Cells throughout the Human Lifespan to Understand Physiological Health.\" //Nature Aging// 2, no. 12 (2022): 1090–1100." }
+        ]
+      },
+      {
+        "label": "Contributing Author",
+        "entries": [
+          { "citation": "Acosta, Diana, {self}, Qin Ma, and Hongjun Fu. \"Utilizing Single-Cell and Spatial RNA-Seq Database for Alzheimer's Disease (ssREAD) in Hypothesis-Driven Queries.\" //Neural Regeneration Research// 21, no. 2 (2026): 677." },
+          { "citation": "Baoyinna, Baoyinna, Jinshan He, Jiaxing Miao, et al. \"Activation of USP30 Disrupts Endothelial Cell Function and Aggravates Acute Lung Injury through Regulating the S-Adenosylmethionine Cycle.\" //Advanced Science// 13, no. 2 (2026): e12807." },
+          { "citation": "Hasanaj, Euxhen, Delphine Beaulieu, {self}, Qianjiang Hu, Marta Bueno, John C. Sembrat, Ricardo H. Pineda, et al. \"SenSet, a Novel Human Lung Senescence Cell Gene Signature, Identifies Cell-Specific Senescence Mechanisms.\" //bioRxiv// (2024)." },
+          { "citation": "Lo Cascio, Filippa, Suhyeorn Park, Urmi Sengupta, Nicha Puangmalai, Nemil Bhatt, Nikita Shchankin, Cynthia Jerez, {self}, et al. \"Brain-Derived Tau Oligomer Polymorphs: Distinct Aggregations, Stability Profiles, and Biological Activities.\" //Communications Biology// 8, no. 1 (2025): 53." },
+          { "citation": "Li, Yang, Anjun Ma, Yizhong Wang, {self}, Shuo Chen, Hongjun Fu, Bingqiang Liu, and Qin Ma. \"Enhancer-Driven Gene Regulatory Networks Inference from Single-Cell RNA-Seq and ATAC-Seq Data.\" //Briefings in Bioinformatics// 25, no. 5 (2024): bbae369." },
+          { "citation": "Yu, Yang, {self}, Shiqiao Ye, Zhaohui Xu, Hui Lin, Karen Texter, Vasudha Shukla, et al. \"Abnormal Progenitor Cell Differentiation and Cardiomyocyte Proliferation in Hypoplastic Right Heart Syndrome.\" //Circulation// 149, no. 11 (2024): 888–891." },
+          { "citation": "Li, Jianying, Anjun Ma, Ruohan Zhang, Yao Chen, Chelsea Bolyard, Bao Zhao, {self}, et al. \"Targeting Metabolic Sensing Switch GPR84 on Macrophages for Cancer Immunotherapy.\" //Cancer Immunology, Immunotherapy// 73, no. 3 (2024): 52." },
+          { "citation": "Li, Yang, Yizhong Wang, {self}, Anjun Ma, Qin Ma, and Bingqiang Liu. \"A Weighted Two-Stage Sequence Alignment Framework to Identify Motifs from ChIP-Exo Data.\" //Patterns// (2024)." },
+          { "citation": "Li, Yingjie, {self}, Anjun Ma, Abdul Qawee Rani, Mingjue Luo, Jenny Li, Xuefeng Liu, and Qin Ma. \"Identification of HPV Oncogene and Host Cell Differentiation Associated Cellular Heterogeneity in Cervical Cancer via Single-Cell Transcriptomic Analysis.\" //Journal of Medical Virology// 95, no. 8 (2023): e29060." },
+          { "citation": "Wang, Yizhong, Yang Li, {self}, Chan-Wang Jerry Lio, Qin Ma, and Bingqiang Liu. \"CeMiG: Prediction of the Cis-Regulatory Motif Using the De Bruijn Graph from ATAC-Seq.\" //Briefings in Bioinformatics// 25, no. 1 (2024): bbad505." },
+          { "citation": "Xiao, Tong, Johanna Schafer, No-joon Song, {self}, Payton Weltge, Xue Li, Qin Ma, and Zihai Li. \"Novel Mechanisms of Androgen Receptor-Centered Transcriptional Regulatory Network in Regulating CD8+ T Cell Exhaustion and Sex Bias in Cancer.\" //The Journal of Immunology// 210, no. 1_Supplement (2023): 171.13–71.13." },
+          { "citation": "Hussan, Hisham, Steven K. Clinton, Elizabeth M. Grainger, Maxine Webb, {self}, Amy Webb, Bradley Needleman, et al. \"Distinctive Patterns of Sulfide- and Butyrate-Metabolizing Bacteria after Bariatric Surgery: Potential Implications for Colorectal Cancer Risk.\" //Gut Microbes// 15, no. 2 (2023): 2255345." },
+          { "citation": "Jeffrey R. Atkinson, Andrew D. Jerome, Andrew R. Sas, Ashley Munie, {self}, Anjun Ma, William D. Arnold, and Benjamin M. Segal. \"Biological Aging of CNS-Resident Cells Alters the Clinical Course and Immunopathology of Autoimmune Demyelinating Disease.\" //JCI Insight// 7, no. 12 (2022)." },
+          { "citation": "Shuo Chen, Diana Acosta, Liangping Li, Jiawen Liang, Yuzhou Chang, {self}, et al. \"Wolframin Is a Novel Regulator of Tau Pathology and Neurodegeneration.\" //Acta Neuropathologica// (2022)." },
+          { "citation": "Shuo Chen, Yuzhou Chang, Liangping Li, Diana Acosta, Yang Li, Qi Guo, {self}, Emir Turkes, Cody Morrison, Dominic Julian, Mark E. Hester, Douglas W. Scharre, Chintda Santiskulvong, Sarah Xueying Song, Jasmine T. Plummer, Geidy E. Serrano, Thomas G. Beach, Karen E. Duff, Qin Ma, and Hongjun Fu. \"Spatially Resolved Transcriptomics Reveals Genes Associated with the Vulnerability of Middle Temporal Gyrus in Alzheimer's Disease.\" //Acta Neuropathologica Communications// 10, no. 1 (2022): 188." },
+          { "citation": "SenNet Consortium. \"NIH SenNet Consortium to Map Senescent Cells throughout the Human Lifespan to Understand Physiological Health.\" //Nature Aging// 2, no. 12 (2022): 1090–1100." },
+          { "citation": "Ying Li, Jianing Zhao, Zhaoqian Liu, {self}, Lizheng Wei, Siyu Han, and Wei Du. \"De Novo Prediction of Moonlighting Proteins Using Multimodal Deep Ensemble Learning.\" //Frontiers in Genetics// 12 (2021)." },
+          { "citation": "Juexin Wang, Anjun Ma, Yuzhou Chang, Jianting Gong, Yuexu Jiang, Ren Qi, {self}, Hongjun Fu, Qin Ma, and Dong Xu. \"scGNN Is a Novel Graph Neural Network Framework for Single-Cell RNA-Seq Analyses.\" //Nature Communications// 12, no. 1 (2021): 1882." },
+          { "citation": "Ying Li, Qi Zhang, Zhaoqian Liu, {self}, Siyu Han, Qin Ma, and Wei Du. \"Deep Forest Ensemble Learning for Classification of Alignments of Non-Coding RNA Sequences Based on Multi-View Structure Representations.\" //Briefings in Bioinformatics// (2020): bbaa354." },
+          { "citation": "Mengting Niu, Jun Zhang, Yanjuan Li, {self}, Zhaoqian Liu, Hui Ding, Quan Zou, and Qin Ma. \"CirRNAPL: A Web Server for the Identification of circRNA Based on Extreme Learning Machine.\" //Computational and Structural Biotechnology Journal// 18 (2020): 834–842." },
+          { "citation": "Padmapriya Swaminathan, Michelle Ohrtman, Abigail Carinder, Anup Deuja, {self}, John Gaskin, Anne Fennell, and Sharon Clay. \"Water Deficit Transcriptomic Responses Differ in the Invasive Tamarix chinensis and T. ramosissima Established in the Southern and Northern United States.\" //Plants// 9, no. 1 (2020): 86." },
+          { "citation": "Juan Xie, Anjun Ma, Yu Zhang, Bingqiang Liu, Sha Cao, {self}, Jennifer Xu, Chi Zhang, and Qin Ma. \"QUBIC2: A Novel and Robust Biclustering Algorithm for Analyses and Interpretation of Large-Scale RNA-Seq Data.\" //Bioinformatics// 36, no. 4 (2020): 1143–1149." },
+          { "citation": "Brandon Monier, Adam McDermaid, {self}, Jing Zhao, Allison Miller, Anne Fennell, and Qin Ma. \"IRIS-EDA: An Integrated RNA-Seq Interpretation System for Gene Expression Data Analysis.\" //PLOS Computational Biology// 15, no. 2 (2019): e1006792." },
+          { "citation": "Yan Wang, Sen Yang, Jing Zhao, Wei Du, Yanchun Liang, {self}, Fengfeng Zhou, Yuan Tian, and Qin Ma. \"Using Machine Learning to Measure Relatedness between Genes: A Multi-Features Model.\" //Scientific Reports// 9, no. 1 (2019)." },
+          { "citation": "Ye Xia, Seth Debolt, Qin Ma, Adam McDermaid, {self}, Nicole Shapiro, Tanja Woyke, and Nikos C. Kyrpides. \"Improved Draft Genome Sequence of Bacillus sp. Strain YF23, Which Has Plant Growth-Promoting Activity.\" //Microbiology Resource Announcements// 8, no. 15 (2019)." },
+          { "citation": "Ye Xia, Seth Debolt, Qin Ma, Adam McDermaid, {self}, Nicole Shapiro, Tanja Woyke, and Nikos C. Kyrpides. \"Improved Draft Genome Sequence of Pseudomonas poae A2-S9, a Strain with Plant Growth-Promoting Activity.\" //Microbiology Resource Announcements// 8, no. 15 (2019)." },
+          { "citation": "Jinyu Yang, Anjun Ma, Adam D. Hoppe, {self}, Yang Li, Chi Zhang, Yan Wang, Bingqiang Liu, and Qin Ma. \"Prediction of Regulatory Motifs from Human ChIP-Sequencing Data Using a Deep Learning Framework.\" //Nucleic Acids Research// 47, no. 15 (2019): 7809–7824." },
+          { "citation": "Adam McDermaid, Xin Chen, Yiran Zhang, {self}, Shaopeng Gu, Juan Xie, and Qin Ma. \"A New Machine Learning-Based Framework for Mapping Uncertainty Analysis in RNA-Seq Read Alignment and Gene Expression Estimation.\" //Frontiers in Genetics// 9 (2018)." },
+          { "citation": "Siyu Han, Yanchun Liang, Qin Ma, Yangyi Xu, Yu Zhang, Wei Du, {self}, and Ying Li. \"LncFinder: An Integrated Platform for Long Non-Coding RNA Identification Utilizing Sequence Intrinsic Composition, Structural Information and Physicochemical Property.\" //Briefings in Bioinformatics// (2018)." }
+        ]
+      }
+    ]
+  },
+
+  "presentations": [
+    { "year": "2025", "title": "BioChatter: Conversational AI for Biomedical Applications", "venue": "Education & Innovation in AI and Cancer Immunology. Columbus, OH.", "type": "Oral Presentation" },
+    { "year": "2025", "title": "BioChatter: A Platform for the Biomedical Application of Large Language Models", "venue": "PIIO Research in Progress. Columbus, OH.", "type": "Oral Presentation" },
+    { "year": "2024", "title": "A Single-Cell and Spatial RNA-Seq Database for Alzheimer's Disease (ssREAD)", "venue": "International Conference on Intelligent Biology and Medicine (ICIBM 2024). Houston, TX.", "type": "Oral Presentation" },
+    { "year": "2023", "title": "A Weighted Two-Stage Sequence Alignment Framework to Identify DNA Motifs from ChIP-exo Data", "venue": "International Conference on Intelligent Biology and Medicine (ICIBM 2023). Tampa, FL.", "type": "Oral Presentation" },
+    { "year": "2023", "title": "TriState Data Analysis Core: Advancements in Data Submission, Analysis, and Tool Development", "venue": "SenNet TriState Annual Conference 2023. Rochester, NY.", "type": "Poster Presentation" },
+    { "year": "2023", "title": "Identifying Cell-Type-Specific Senescent Cells and Signature Genes Using Heterogeneous Graph Contrastive Learning", "venue": "SenNet Annual Meeting 2023. Minneapolis, MN.", "type": "Poster Presentation" },
+    { "year": "2021", "title": "Analyze RNA-Seq Data Using IRIS-EDA Web Server", "venue": "Vitismeet: Grapes at UC Davis & SLU. Columbus, OH.", "type": "Oral Presentation" },
+    { "year": "2020", "title": "Computational Tool and Pipeline for RNA-Seq Data Analysis", "venue": "NSF PGRP Grape Grafting Annual Meeting. Columbus, OH.", "type": "Oral Presentation" },
+    { "year": "2019", "title": "Identification of Regulatory DNA Motifs Using ChIP-exo Data", "venue": "BMI Internship Poster Session. Columbus, OH.", "type": "Poster Presentation" },
+    { "year": "2019", "title": "Development of Regulatory Motif Identification Program", "venue": "BioSNTR Plant Science Research Day. Brookings, SD.", "type": "Poster Presentation" },
+    { "year": "2018", "title": "Combining Computational Methods and Experimental Data for Motif Prediction", "venue": "BioSNTR Plant Science Research Day. Brookings, SD.", "type": "Poster Presentation" }
+  ],
+
+  "teaching": [
+    { "year": "2026", "course": "BMI 5750: Methods in Biomedical Informatics", "role": "Guest Lecturer", "detail": "Department of Biomedical Informatics, OSU. Topic: BioChatter as the biomedical application platform of large language models." },
+    { "year": "2024", "course": "BISR Bioinformatics Workshop", "role": "Lecturer", "detail": "Department of Biomedical Informatics, OSU." },
+    { "year": "2021", "course": "BISR CRISPR Screening Workshop", "role": "Lecturer", "detail": "Department of Biomedical Informatics, OSU." },
+    { "year": "2021", "course": "BISR RNA-Seq Workshop", "role": "Lecturer", "detail": "Department of Biomedical Informatics, OSU." },
+    { "year": "2020", "course": "Applications of Machine Learning and Artificial Intelligence", "role": "Guest Lecturer", "detail": "Department of Biomedical Informatics, OSU." },
+    { "year": "2020", "course": "Single-Cell Sequencing Data Analysis Workshop", "role": "Guest Lecturer", "detail": "Iowa State University." },
+    { "year": "2019", "course": "Applied Bioinformatics", "role": "Teaching Assistant (Dr. Xijin Ge)", "detail": "Department of Mathematics and Statistics, South Dakota State University." }
+  ],
+
+  "mentoring": [
+    { "period": "2026", "body": "Jonathan Yang //(Undergraduate, The Ohio State University)//" },
+    { "period": "2023–2024", "body": "Siqi Lin //(Huazhong University of Science and Technology, China)//" },
+    { "period": "2022–2023", "body": "Megan McNutt //(Senior Research Technician, OSU)//" },
+    { "period": "2023", "body": "Grace Xu //(High school intern, Dublin, OH)//" },
+    { "period": "2023", "body": "Kevin Wang //(High school intern, Columbus, OH)//" },
+    { "period": "2022", "body": "Jiaxin Yang //(Undergraduate, OSU)//" },
+    { "period": "2022", "body": "Mohnish Karthikeyan //(High school intern, Mason, OH)//" }
+  ],
+
+  "awards": [
+    { "year": "2022", "name": "Excellence in Team Science (Staff)", "org": "Department of Biomedical Informatics, OSU" }
+  ],
+
+  "skills": [
+    { "label": "AI Agent Development", "body": "LLM application design, Retrieval-Augmented Generation (RAG), knowledge graphs, multi-agent orchestration, agent skills, AI gateway management (LiteLLM), local and cloud LLM deployment." },
+    { "label": "Bioinformatics & Data Analysis", "body": "Next-generation sequencing, single-cell multi-omics data analysis, high-performance computing, and reproducible workflows (R, Python, HPC systems)." },
+    { "label": "Cloud Infrastructure", "body": "Establishment and management of HIPAA-compliant platforms, foundational biomedical AI model hosting, GPU cluster management, cost optimization (AWS, Azure)." },
+    { "label": "Full-Stack Development", "body": "Full-stack web development (Vue.js, NestJS, TypeScript, MySQL)." },
+    { "label": "DevOps", "body": "Automation and deployment (GitHub Actions, Azure DevOps, Docker)." },
+    { "label": "Machine Learning & AI", "body": "Deep learning model development and deployment (ConvNet, Graph Transformer, AWS SageMaker)." },
+    { "label": "EHR Data Management", "body": "Clinical data lake platforms (OSU LifeScale / Databricks), multi-site cohort harmonization (e.g., LCMC3), HIPAA-compliant data workflows." },
+    { "label": "Data Visualization", "body": "Interactive and publication-quality figures (Adobe Illustrator, ggplot2, Circos, Shiny)." }
+  ]
+}
